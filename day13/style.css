@@ -1,0 +1,41 @@
+/* div p{
+    background-color: red;
+} */
+
+ /* div>p{
+    background-color: pink;
+ } */
+/* 
+div+p{
+    background-color: red;
+    color: white;
+} */
+
+
+/* div~p{
+    background-color: red;
+    color: white;
+} */
+h1::after{
+     content: " kya dekh rha hai ";
+     color: red;
+}
+h1::before{
+    content: " nikal na yha se  ";
+    color: yellow;
+}
+p::first-letter{
+   
+    color: rgb(0, 255, 55);
+}
+p::first-line{
+   
+    background-color: rgb(0, 0, 0);
+    color: red;
+}
+li::marker{
+    content: "*";
+}
+li::selection{
+    color: red;
+}
