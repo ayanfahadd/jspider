@@ -1,0 +1,19 @@
+.d1{
+    background-color: red;
+    color: white;
+}
+.d2{
+    background-color: rgb(150, 20, 20);
+}
+.d3{
+    background-color: rgba(115, 115, 115, .5);
+}
+.d4{
+    background-color: hsl(60, 50%, 50%);
+}
+.d5{
+    background-color: hsla(60, 30%, 10%, .5);
+}
+.d6{
+    background-color: #fbf;
+}
