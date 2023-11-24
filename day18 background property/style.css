@@ -1,0 +1,38 @@
+.container{
+    border: 2px solid black;
+    background-image: url("1b.jpg");
+    height: 600px;
+    width: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#d1{
+    background-image: url("1.jpg");
+    background-size: 100px 100px;
+    background-position: right center;
+    background-repeat: no-repeat;
+
+    height: 300px;
+    /* border:  3px solid red; */
+    width: 300px;
+}
+#d2{
+    background-image: url("2.jpg");
+    background-position: right bottom;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    /* border:  3px solid red; */
+}
+#d3{
+    background-image: url("3.jpg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 300px;
+    width: 300px;
+    /* border:  3px solid red; */
+}
