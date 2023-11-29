@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container2{
+            display: flex;
+
+        }
+        .container1{
+            display: flex;
+        }
+#div1{
+    border: 1px solid blue;
+    height: 400px;
+    width: 400px;
+   
+    background-image: linear-gradient( blue , white ,black);
+
+}
+#div2{
+    border: 1px solid blue;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image:repeating-linear-gradient( black , white 10% ,pink 5% );
+
+}
+#div3{
+    border: 1px solid blue;
+    height: 400px;
+    width: 400px;
+    
+    background-image: radial-gradient( blue , white);
+
+}
+#div4{
+    border: 1px solid blue;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: repeating-radial-gradient( blue 5%, white 10%,blue 10%);
+
+}
+#div5{
+    border: 1px solid blue;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: conic-gradient( red , green );
+
+}
+#div6{
+    border: 1px solid blue;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: repeating-conic-gradient( yellow 5%, red 10%);
+
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container1">
+            <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    
+        </div>
+        <div class="container2">
+            <div id="div4"></div>
+            <div id="div5"></div>
+            <div id="div6"></div>
+        </div>
+    </div>
+</body>
+</html>
