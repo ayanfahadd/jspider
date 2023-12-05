@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --color1: #ffffff;
+    --color2: #1a73e8;
+}
+
+.contsiner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}.box1,.box2,.box3,.box4,.a1,.a2,.b1,.b2 ul,.c1,.c2,.c2 p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1{
+    background-color: var(--color2);
+    padding-left: 17%;
+    padding-right: 17%;
+    height: 63px;
+    width: 100vw;
+    color: var(--color1);
+}
+.a1{
+    font-size: 90%;
+    font-weight: 600;
+    
+}
+.a2{
+    width: 15%;
+}
+.a1 a{
+    color:#d6d6d6 ;
+    text-decoration: none;
+    font-weight: 500;
+}
+.a1 a:hover{
+    
+    text-decoration: underline;
+    
+}
+.a2 a{
+    color: var(--color1);
+}
+.a2 a:hover{
+    color:#d6d6d6;
+}
+
+
+/* //box 2 design  */
+
+.box2{
+    height: 100px;
+    width: 100vw;
+    padding-left: 17%;
+    padding-right: 17%;
+
+}
+.b1{
+    width: 25%;
+
+}
+.b2{
+    width: 75%;
+   justify-content: space-between;
+
+}
+
+.b1 a img{
+    height: 35px;
+}
+
+.b2 ul li a{
+text-decoration: none;
+color: #616161;
+
+}
+.b2 ul li a:hover{
+
+color: #1a73e8;
+
+}
+
+/* //box 3 design  */
+
+.box3{
+    height: 75px;
+    background-color: #f7f7f7;
+    width: 100vw;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+.c1{
+    font-size: x-large;
+    font-weight: bold;
+}
+.c2{
+    color:#757575;
+    font-weight: lighter;
+}
+.c2 a{
+    text-decoration: none;
+    color: #616161;
+    font-weight: 300;
+}
+.c2 a:hover{
+    text-decoration: underline;
+}
+.box4{
+    padding-left: 14%;
+    padding-right: 14%;
+    
+}
+.box4 img{
+   
+width: 100%;
+}
