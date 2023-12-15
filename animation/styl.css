@@ -1,60 +1,168 @@
-
 body{
-   
     height: 100vh;
     width: 100vw;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-image: url("https://cdn.pixabay.com/photo/2021/01/10/18/01/milky-way-5905903_1280.jpg");
    
+    background-image: url("https://cdn.pixabay.com/photo/2021/01/10/18/01/milky-way-5905903_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotateY(60deg);
+    position: relative;
 }
-.sun{
-    height: 200px;
-    width: 200px;
+.solar{
+    position: relative;
+    top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotat2;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    
+      
+    
+}
+
+.container,.container1,.container2,.container3,.container4,.container5,.container6{
+    border: 2px solid rgba(255, 255, 255, 0.374);
     border-radius: 50%;
     position: absolute;
     animation-name: rotat;
-    animation-duration: 20s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   
 
-} 
-.murcery{
-    height: 100px;
-    width: 100px;
+    
+    
+}
+.container6{
+    height: 30px;
+    width: 30px;
+    animation-duration: 30s;
+    border: none;
+}
+.container{
+    height: 90px;
+    width: 90px;
+    animation-duration: 10s;
+    border-top: none;
+    border-right: none;
+}
+.container1{
+    height: 140px;
+    width: 140px;
+    animation-duration: 13s;
+    border-top: none;
+    border-right: none;
+}
+.container2{
+    height: 210px;
+    width: 210px;
+    animation-duration: 17s;
+    border-top: none;
+    border-right: none;
+}
+.container3{
+    height: 290px;
+    width: 290px;
+    animation-duration: 20s;
+    border-top: none;
+    border-right: none;
+}
+.container4{
+    height: 400px;
+    width: 400px;
+    animation-duration: 25s;
+    border-top: none;
+    border-right: none;
+}
+.container5{
+    height: 510px;
+    width: 510px;
+    animation-duration:30s;
+    border-top: none;
+    border-right: none;
+}
+
+
+
+.sun,.murcery,.venus,.earth,.mars,.jupiter,.saturn{
+    border: 0px solid rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     position: relative;
-    background-image: url("https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsb2ZmaWNlMV9waG90b19vZl90aGVfbWVyY3VyeV9wbGFuZXRfb25fd2hpdGVfYmFja2dyb3VuZF8yOTk2OGQwYi0zYzZlLTQ4MjQtOTczZC02OWRiMTAxZWVkZjRfMS5wbmc.png");
-  background-size: cover;
-  animation-name: rotat;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+    background-size: cover;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: rotat;
     
 
 }
-.container{
-    border: 2px solid rgb(255, 255, 255);
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    animation-name: rotat;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-
-   
+.sun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-image: url("https://pngimg.com/uploads/sun/small/sun_PNG13424.png");
+    animation-duration: 50s;
+}
+.murcery{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/3D_Mercury.png");
+}
+.venus{
+    top:7px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Venus.png/640px-Venus.png");
+}   
+.earth{
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbSifcIkKqx_vEwOolRhTEV-aatfwRMKappsd-uPVceQ&s");
+    top: 30px;
+}
+.mars{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQshoDcWwHCvkcfawHCu8tpoyOahlUHAbgFOctmYDStZg&s");
+    top: 65px;
+}
+.jupiter{
+    background-image: url("https://jfbdesign.com/wp-content/uploads/revslider/solar-system-showcase-slider1/jupiter.png");
+    top: 100px;
+}
+.saturn{
+    background-image: url("https://w7.pngwing.com/pngs/966/345/png-transparent-planet-jupiter-saturn-planet-miscellaneous-sphere-venus-thumbnail.png");
+    top: 140px;
 }
 
-@keyframes rotat{
-    0%{
+
+@keyframes rotat{0%{transform: rotate(0deg);}100%{transform: rotate(360deg);}}
+@keyframes rotat2{
+    0%{transform:translateX(-600px) ;
         
-       transform: rotate(0deg);
-        
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+}
+100%{transform: translateX(600px);
+}
+}
+
+
+.hedding{
+    top: 308px;
+    position: absolute;
+    
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+h1{
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bolder;
+  
+
 }
